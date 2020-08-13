@@ -1,0 +1,64 @@
+body {
+  width: 80vw;
+  // height: 100rem;
+  text-align: center;
+  background-color: #b2ebf2;
+  margin: auto;
+.container {
+  
+
+  h1 {
+    margin: 0;
+		padding: 0;
+		position: relative;
+		bottom: -2.5rem;
+  }
+
+  .locator {
+    font-weight: bold;
+    margin-top: 1.55rem;
+    opacity: 0.7;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 32rem;
+    position: fixed;
+		right: 10.15vw;
+		font-family: 'Orbitron', sans-serif;
+		font-size: 12px;
+		
+
+
+    .lat {
+      padding: 10px;
+      float: right !important;
+      margin-top: 2.12rem;
+      margin-left: 20rem;
+      background: #D7E0E3;
+      border: 1px solid #000;
+      border-radius: 2px;
+    }
+
+    .long {
+      padding: 10px;
+      border-radius: 2px;
+      float: right;
+      margin-left: 20rem;
+      margin-top: -1.5rem;
+      border: 1px solid #000;
+      background: #D7E0E3;
+
+    }
+  }
+}
+
+#issMap {
+  height: 70vh;
+  width: 80vw;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid #00bcd4;
+  bottom: -3.5rem;
+  z-index: -1;
+
+}
+}
